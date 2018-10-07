@@ -1,0 +1,33 @@
+extends layout
+block content
+  .jumbotron
+    h1.display-5.jumbotron-title Skåne Solar Energy Hub
+    div.row
+      div.col-md-8
+        h4 Sunny Sweden
+        ul
+          li
+            h5  
+              | From wind power to hydro-power to bio-waste, Sweden is a world leader in renewable energy. 
+          li
+            h5 
+              | However, large scale solar power installations are noticeably lacking from Sweden's renewable energy portfolio. 
+          li
+            h5
+              | Sweden might not have the reputation as a sunshine getaway vacation destination, but surprisingly, 
+              a.jumbotron-link-text(target='_blank', href='https://docs.google.com/presentation/d/16RJWfyaoHaQL01EMQmW4cPWAATaI70_SQNm3wIXKiJ4/pub?start=false&loop=false&delayms=3000')
+                | the yearly solar energy potential of southern Sweden is 60% that of sun-drenched Casablanca Morocco.
+        h4 Checkout the 
+          a.jumbotron-link-text(href='https://quantum-guys-solar-calculator.herokuapp.com/') Skåne Solar Calculator
+          |  to analyze your own solar field.
+      div.col-md-4(style='text-align:right;')
+        img(src='/img/solarEnergyHub/sunnySweden.jpg', width='100%') 
+  div.container.marketing
+    include solarEnergyHubSlides/solarAccelerator.pug
+    include solarEnergyHubSlides/greenSolar.pug
+    include solarEnergyHubSlides/solarHeat.pug
+    include solarEnergyHubSlides/hybridWorld.pug
+    include solarEnergyHubSlides/districtHeating.pug
+    include solarEnergyHubSlides/solarHub.pug
+    include solarEnergyHubSlides/researchProposal.pug
+    include solarEnergyHubSlides/summary.pug

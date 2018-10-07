@@ -1,0 +1,23 @@
+nav.navbar.navbar-expand-lg.navbar-light
+  a.navbar-brand(href='./' ,target='_blank ', data-toggle="tooltip",data-placement="bottom",title="The Quantum Guys")
+    img(src="/img/TQG_text_logo.png" ,height="50px")
+  //button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNavDropdown' aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  //#navbarNavDropdown.collapse.navbar-collapse
+  #navbarNavDropdown.navbar-expand
+    ul.navbar-nav
+      li.nav-item
+        a.linkicon.fas.fa-gamepad.fa-2x(href='/controls',data-toggle="tooltip",data-placement="bottom",title="Controls")
+      li.nav-item.dropdown
+        a#navbarDropdownMenuLink.linkicon.dropdown-toggle.fas.fa-sun.fa-2x(href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false', target='_blank',data-placement="bottom",title="Solar Energy")
+        .dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
+          a.dropdown-item(href='/solarEnergyHub') Skåne Solar Energy Hub
+          a.dropdown-item(href='https://quantum-guys-solar-calculator.herokuapp.com/') Solar Energy Calculator
+      li.nav-item
+        a.linkicon.fas.fa-battery-full.fa-2x(href='/',data-toggle="tooltip",data-placement="bottom",title="Power Converters")
+      li.nav-item
+        a.linkicon.fab.fa-github.fa-2x(href='https://github.com/the-quantum-guys', target='_blank',data-toggle="tooltip",data-placement="bottom",title="Github")
+      li.nav-item
+        a.linkicon.fab.fa-twitter.fa-2x(href='https://twitter.com/TheQuantumGuys', target='_blank',data-toggle="tooltip",data-placement="bottom",title="Twitter")
+      li.nav-item
+        a.linkicon.fas.fa-envelope.fa-2x(href='mailto:info@thequantumguys.io',data-toggle="tooltip",data-placement="bottom",title="Contact")

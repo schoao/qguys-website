@@ -1,0 +1,33 @@
+extends layout
+block content
+  .jumbotron
+    h1.display-5.jumbotron-title THE QUANTUM GUYS
+    p.lead
+      | We are a team of scientists and engineers based in Lund, Sweden
+      | , fascinated by the proliferation of cheap and easy-to-use open-source technology, and the potential that it offers.
+    p.lead
+      | Our core strength is in the development of instrumentation and control applications for businesses, R&amp;D facilities, and academia.
+  .row(align='center')
+    .col-md-4
+      .card
+        h5.card-title Instrumentation and Control Systems
+        .card-body
+          p.card-text
+            | Inexpensive custom instrumentation and control solutions based on the 
+            a.card-link-text(href='http://www.blinky-lite.io/', target='_blank') Blinky-Lite
+            |  Platform
+          a.btn.card-button(href='/controls') Read More
+    .col-md-4
+      .card
+        h5.card-title Skåne Solar Energy Hub
+        .card-body
+          p.card-text
+            | A large scale hybrid solar energy concept for Lund, Sweden
+          a.card-link-text.btn.card-button(href='/solarEnergyHub') Read More
+    .col-md-4
+      .card
+        h5.card-title Modular DC MicroGrid
+        .card-body
+          p.card-text
+            | Harvesting energy from multiple renewable local sources for local consumption using DC smart grids.
+          a.btn.card-button(href='/') Read More

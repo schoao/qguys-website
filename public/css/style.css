@@ -1,0 +1,129 @@
+:root {
+  --container-background-color: #016a71;
+  --container-title-color: #d99114;
+  --container-text-color: #ffffff;
+  --background-color: #9e988e;
+  --sub-container-background-color: #c6c2bb;
+  --sub-container-title-color: #016a71;
+  --sub-container-text-color: #000000;
+  --featurette-text-color: #ffeccc;
+  --featurette-bullet-color: #01484d;
+}
+body {
+  background-color: var(--background-color);
+  padding-left:25px;
+  padding-right:25px;
+}
+.linkicon {
+  padding: 20px;
+  color: var(--container-background-color);
+}
+img {
+  object-fit: contain;
+}
+.col {
+  padding-bottom: 20px;
+}
+.jumbotron {
+  background-color: var(--container-background-color) !important;
+  color:var(--container-text-color);
+}
+.jumbotron-title
+{
+  color:var(--container-title-color);
+}
+.jumbotron-button
+{
+  color: var(--container-background-color);
+  background-color: var(--container-title-color);
+}
+.jumbotron-link-text {
+  color: var(--container-title-color);
+  text-decoration: underline;
+}
+.featurette-heading
+{
+  color:var(--container-background-color);
+}
+.featurette-text
+{
+  color:var(--featurette-text-color);
+}
+.featurette-bullet
+{
+  color:var(--featurette-bullet-color);
+}
+.card
+{
+  background-color: var(--container-background-color);
+  text-align: center;
+  padding: 10px;
+}
+.card-body
+{
+  color: var(--sub-container-text-color);
+  background-color: var(--sub-container-background-color);
+}
+.card-link-text {
+  color: var(--container-background-color);
+  text-decoration: underline;
+}
+.card-button
+{
+  color: var(--container-title-color);
+  font-weight: bold;
+  background-color: var(--container-background-color);
+}
+.card-title
+{
+  color: var(--container-title-color);
+  font-weight: bold;
+}
+.card-bullet
+{
+  text-align: left;
+}
+
+.card-text
+{
+  text-align: left;
+}
+.scrolling-wrapper {
+  width: 100%;left
+  display: inline-block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.footer {
+/*   position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color:var(--container-background-color);
+   background-color: var(--background-color);
+   text-align: center;
+}
+.img-max {
+  width: 99%;
+}
+.bot-pad
+{
+  padding-bottom: 20px;
+}
+.span-left-justify
+{
+  float:left;
+}
+.right-justify
+{
+  text-align: right;
+}
+.center-justify
+{
+  text-align: center;
+}
+.solarPlotButton
+{
+  width :90%;
+}

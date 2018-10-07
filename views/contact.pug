@@ -1,0 +1,18 @@
+extends layout
+block content
+  .container
+    .col-md-5
+      .form-area
+        form(role='form', method='POST', action='/contact')
+          h3(style='margin-bottom: 25px; text-align: center;') Contact Form
+          .form-group
+            input#name.form-control(type='text', name='name', placeholder='Name', required='')
+          .form-group
+            input#email.form-control(type='text', name='email', placeholder='Email', required='')
+          .form-group
+            input#mobile.form-control(type='text', name='mobile', placeholder='Mobile Number', required='')
+          .form-group
+            input#subject.form-control(type='text', name='subject', placeholder='Subject', required='')
+          .form-group
+            textarea#message.form-control(type='textarea', rows='7', maxlength="141", name='message', placeholder='Message', required='')
+          button.btn.pull-right.card-button(type='submit', name='submit') Submit Form
